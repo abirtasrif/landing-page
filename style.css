@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aliceblue;
+}
+
+main {
+  margin: 0 15vw 0 15vw;
+}
+footer {
+  margin: 0 15vw 0 15vw;
+  background-color: lightgray;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: #fff;
+  height: 65px;
+  margin-bottom: 10vh;
+}
+
+.logo {
+  height: 30px;
+  margin-left: 5%;
+}
+#header-img {
+  width: 70px;
+  position: relative;
+}
+
+h1 {
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 11%;
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  bottom: 35%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 50px;
+}
+
+form {
+  text-align: center;
+}
+
+#email {
+  margin: 15px 0;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: right;
+}
