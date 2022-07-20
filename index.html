@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Landing Page</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/b58d357270.js"
@@ -13,6 +13,14 @@
   </head>
   <body>
     <header id="header">
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#services" class="nav-link">Features</a></li>
+          <li><a href="#video" class="nav-link">How it Works</a></li>
+          <li><a href="#product" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+
       <div class="logo">
         <img
           id="header-img"
@@ -21,62 +29,47 @@
         />
         <h1>Original Disney</h1>
       </div>
-      <nav id="nav-bar">
-        <ul>
-          <li> <a href="" class="nav-link">Features</a></li>
-          <li> <a href="" class="nav-link">How it Works</a></li>
-          <li> <a href="" class="nav-link">Pricing</a></li>
-         
-        </ul>
-      </nav>
     </header>
     <main>
-     
       <form id="form" action="https://www.freecodecamp.com/email-submit">
-         <h2 class="form-title">Enjoy the Disney Subscription</h2>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Enter your email address"
-      />
-      <br />
-      <input id="submit" type="submit" value="Get Started">
+        <h2 class="form-title">Enjoy the Disney Subscription</h2>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+        <br />
+        <input id="submit" type="submit" value="Get Started" />
       </form>
-      <div class="services">
-
-        <div class="child">
-            <i class="fa-solid fa-fire-flame-curved"></i>
-            <h2>Premium Content</h2>
-            <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-          perspiciatis iusto omnis molestias iste mollitia fugit molestiae, quas
-          maiores nisi.
-            </p>
-        </div>
-        
-        <div class="child">
-            <i class="fa-solid fa-truck-fast"></i>
-            <h2>Lag free playing</h2>
-            <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-          perspiciatis iusto omnis molestias iste mollitia fugit molestiae, quas
-          maiores nisi.
-            </p>
-        </div>
-
-        <div class="child">
-            <i class="fa-solid fa-eye"></i>
-            <h2>High Defination Video</h2>
-            <p>
+      <div id="services">
+        <i class="fa-solid fa-fire-flame-curved"></i>
+        <h2 class="title1">Premium Content</h2>
+        <p class="para1">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
           perspiciatis iusto omnis molestias iste mollitia fugit molestiae, quas
           maiores nisi.
         </p>
-    </div>
-  </div>
 
-      <iframe id="video"
+        <i class="fa-solid fa-truck-fast"></i>
+        <h2 class="title2">Lag free playing</h2>
+        <p class="para2">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+          perspiciatis iusto omnis molestias iste mollitia fugit molestiae, quas
+          maiores nisi.
+        </p>
+
+        <i class="fa-solid fa-eye"></i>
+        <h2 class="title3">High Defination Video</h2>
+        <p class="para3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+          perspiciatis iusto omnis molestias iste mollitia fugit molestiae, quas
+          maiores nisi.
+        </p>
+      </div>
+
+      <iframe
+        id="video"
         width="560"
         height="315"
         src="https://www.youtube.com/embed/p0jt4n92ZMY"
@@ -85,33 +78,34 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <div class="product">
-      <div class="package">
-        <h4>Package-1</h4>
-        <p>$600</p>
-        <p>lorem ipsum<br />ipsum lorem<br />lorem ipsum<br />lorem ipsum</p>
-        <a href="#">SELECT</a>
+      <div id="product">
+        <div class="package">
+          <h4>Package-1</h4>
+          <p>$600</p>
+          <p>lorem ipsum<br />ipsum lorem<br />lorem ipsum<br />lorem ipsum</p>
+          <a href="#">SELECT</a>
+        </div>
+
+        <div class="package">
+          <h4>Package-2</h4>
+          <p>$800</p>
+          <p>lorem ipsum<br />ipsum lorem<br />lorem ipsum<br />lorem ipsum</p>
+          <a href="#">SELECT</a>
+        </div>
+
+        <div class="package">
+          <h4>Package-3</h4>
+          <p>$1000</p>
+          <p>lorem ipsum<br />ipsum lorem<br />lorem ipsum<br />lorem ipsum</p>
+          <a href="#">SELECT</a>
+        </div>
       </div>
-      <div class="product">
-      <div class="package">
-        <h4>Package-2</h4>
-        <p>$800</p>
-        <p>lorem ipsum<br />ipsum lorem<br />lorem ipsum<br />lorem ipsum</p>
-        <a href="#">SELECT</a>
-      </div>
-      <div class="product">
-      <div class="package">
-        <h4>Package-3</h4>
-        <p>$1000</p>
-        <p>lorem ipsum<br />ipsum lorem<br />lorem ipsum<br />lorem ipsum</p>
-        <a href="#">SELECT</a>
-      </div></div>
     </main>
     <footer>
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-        <a href="">Contact</a>
-        <p>Copyright 2022, Original Disney</p>
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Contact</a>
+      <p>Copyright 2022, Original Disney</p>
     </footer>
   </body>
 </html>
