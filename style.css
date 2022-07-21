@@ -131,7 +131,7 @@ form {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-#product {
+.product {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -148,6 +148,17 @@ form {
   height: 270px;
 }
 
-# footer {
+@media (max-width: 800px) {
+  .product {
+    flex-direction: column;
+  }
+
+  .package {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+footer {
   text-align: right;
 }
